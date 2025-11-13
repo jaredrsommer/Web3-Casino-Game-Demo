@@ -16,13 +16,27 @@ module.exports = {
         'poker': "url('/assets/image/blackjack.jpg')",
       },
       colors:{
+        // Coreum Brand Colors
+        coreum: {
+          primary: '#25D695',      // Primary Green
+          green: '#25D695',        // Alias for primary
+          dark: '#101216',         // Dark (almost black)
+          'dark-bg': '#030612',    // Darker background
+        },
+        // CozyCasino Custom Colors
+        cozy: {
+          green: '#25D695',        // Primary brand green
+          gold: '#FFD700',         // Gold for rewards/coins
+          dark: '#101216',         // Dark backgrounds
+        },
+        // Existing dark theme colors
         dark:{
           900:"#030612",
           600:"#0e141d",
           500:"#141923"
         }
       }
-      
+
     },
 
   },

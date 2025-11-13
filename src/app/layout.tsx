@@ -23,6 +23,31 @@ const bangers = Bangers({
 export const metadata: Metadata = {
   title: "CozyCasino - Coreum Casino Gaming Platform",
   description: "A modern cryptocurrency casino gaming platform powered by Coreum blockchain with provably fair games",
+  keywords: ["casino", "crypto", "blockchain", "Coreum", "provably fair", "gaming", "web3"],
+  authors: [{ name: "CozyCasino" }],
+  icons: {
+    icon: "/assets/image/cozy-mascot.png",
+    apple: "/assets/image/cozy-mascot.png",
+  },
+  openGraph: {
+    title: "CozyCasino - Coreum Casino Gaming Platform",
+    description: "Play provably fair casino games on Coreum blockchain",
+    type: "website",
+    images: [
+      {
+        url: "/assets/image/cozy-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "CozyCasino Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CozyCasino - Coreum Casino Gaming Platform",
+    description: "Play provably fair casino games on Coreum blockchain",
+    images: ["/assets/image/cozy-logo.png"],
+  },
 };
 
 export default function RootLayout({
