@@ -5,6 +5,17 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Coreum Brand Colors */
+  --coreum-primary: #25D695;
+  --coreum-primary-rgb: 37, 214, 149;
+  --coreum-dark: #101216;
+  --coreum-dark-rgb: 16, 18, 22;
+
+  /* CozyCasino Colors */
+  --cozy-green: #25D695;
+  --cozy-gold: #FFD700;
+  --cozy-dark: #101216;
 }
 
 @media (prefers-color-scheme: dark) {

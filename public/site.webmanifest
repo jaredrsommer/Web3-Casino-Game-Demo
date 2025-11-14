@@ -1,0 +1,22 @@
+{
+  "name": "CozyCasino - Coreum Gaming",
+  "short_name": "CozyCasino",
+  "description": "Provably fair casino games on Coreum blockchain",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101216",
+  "theme_color": "#25D695",
+  "icons": [
+    {
+      "src": "/assets/image/cozy-mascot.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/image/cozy-logo.png",
+      "sizes": "1200x630",
+      "type": "image/png"
+    }
+  ]
+}

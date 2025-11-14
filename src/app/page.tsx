@@ -20,7 +20,7 @@ const GameBoard = () => {
                 <video muted autoPlay loop poster="/assets/image/post.png" className="object-fill w-screen h-screen">
                     <source src="/assets/video/car.mp4" />
                 </video>
-                <Image src="/assets/image/logo.png" alt="logo" className="w-44 fixed top-5 left-5" />
+                <Image src="/assets/image/cozy-logo.png" alt="CozyCasino logo" className="w-64 fixed top-5 left-5" />
                 <div className="absolute w-screen h-screen z-10 bg-black/70 top-0">
                     <div className="relative w-screen h-screen">
                         <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 flex items-center flex-col">
@@ -77,12 +77,12 @@ const StyledWrapper = styled.div`
     cursor: pointer;
     letter-spacing: 2px;
     text-shadow:
-      0 0 5px #00ffe0,
-      0 0 15px #00ffe0,
-      0 0 25px #00ffe0;
+      0 0 5px #25D695,
+      0 0 15px #25D695,
+      0 0 25px #25D695;
     box-shadow:
-      inset 0 0 15px #00ffe0,
-      0 0 20px rgba(0, 255, 224, 0.7);
+      inset 0 0 15px #25D695,
+      0 0 20px rgba(37, 214, 149, 0.7);
     overflow: hidden;
     border-radius: 10px;
     z-index: 1;
@@ -102,7 +102,7 @@ const StyledWrapper = styled.div`
     background: linear-gradient(
       90deg,
       transparent,
-      rgba(0, 255, 224, 0.6),
+      rgba(37, 214, 149, 0.6),
       transparent
     );
     z-index: -1;
@@ -136,8 +136,8 @@ const StyledWrapper = styled.div`
   .synthwave-laser-button:active {
     transform: scale(0.95);
     box-shadow:
-      inset 0 0 15px #00ffe0,
-      0 0 25px rgba(255, 0, 144, 0.7);
+      inset 0 0 15px #25D695,
+      0 0 25px rgba(37, 214, 149, 0.7);
   }`;
 
 
