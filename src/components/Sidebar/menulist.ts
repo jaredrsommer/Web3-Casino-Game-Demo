@@ -1,21 +1,31 @@
 export const MenuList = [
     {
-        icon:"",
+        icon:"📊",
+        path:"dashboard",
+        title:"Dashboard"
+    },
+    {
+        icon:"🏆",
+        path:"leaderboard",
+        title:"Leaderboard"
+    },
+    {
+        icon:"💣",
         path:"mine",
         title:"Mine"
     },
     {
-        icon:"",
+        icon:"🃏",
         path:"videopoker",
         title:"Video Poker"
     },
     {
-        icon:"",
+        icon:"🚀",
         path:"crash",
         title:"Crash Game"
     },
     {
-        icon:"",
+        icon:"🎰",
         path:"slide",
         title:"Slide"
     },
